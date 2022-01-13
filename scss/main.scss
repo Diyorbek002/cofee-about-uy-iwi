@@ -1,0 +1,266 @@
+/* fraunces-900 - latin */
+@font-face {
+    font-family: 'Fraunces';
+    font-style: normal;
+    font-weight: 900;
+    src: local(''),
+         url('../fonts/fraunces-v10-latin-900.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/fraunces-v10-latin-900.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+
+  /* barlow-regular - latin */
+@font-face {
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 400;
+    src: local(''),
+         url('../fonts/barlow-v5-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/barlow-v5-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  /* barlow-700 - latin */
+  @font-face {
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 700;
+    src: local(''),
+         url('../fonts/barlow-v5-latin-700.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/barlow-v5-latin-700.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.container{
+    max-width: 1320px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.box{
+    display: flex;
+    margin-left: auto;
+    justify-content: space-between;
+}
+
+.list{
+    display: flex;
+    list-style: none;
+    text-decoration: none;
+    align-items: center;
+    padding: 0;
+}
+
+.list__item{
+    margin-left: 20px;
+    color: #83888F;
+    text-decoration: none;
+    font-family: "Barlow";
+    font-weight: bold;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+.hero{
+    margin-top: 43px;
+    margin-bottom: 168px;
+    background-image: url("../images/header-cofee.png");
+    background-repeat: no-repeat;
+    height: 450px;
+}
+
+.hero__user{
+    padding: 137px 0 0 85px;
+}
+
+.hero__title{
+    margin-bottom: 32px;
+    font-family: "Fraunces";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 48px;
+    color: #FEFCF7;
+}
+
+
+.hero__desc{
+    width: 445px;
+    font-family: "Barlow";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FEFCF7;
+}
+
+.Our-commitment__user{
+    display: flex;
+    width: 1110px;
+    margin: 0 auto;
+    margin-bottom: 168px;
+}
+
+.cofee__img{
+    border-radius: 10px;
+}
+
+.info{
+    width: 540px;
+    margin: 90px 0 0 125px;
+}
+
+.info__title{
+    font-family: "Fraunces";
+    font-weight: 900;
+    font-size: 40px;
+    color: #333D4B;
+    margin-bottom: 32px;
+}
+
+.info__desc{
+    font-family: "Barlow";
+    font-size: 16px;
+    line-height: 26px;
+    color: #333D4B;
+}
+
+.quality__user{
+    position: relative;
+    z-index: 1;
+    background-image: url("../images/grey.png");
+    background-repeat: no-repeat;
+    height: 474px;
+    border-radius: 10px;
+    display: flex;
+    margin-bottom: 168px;
+}
+
+.quality__item{
+    width: 540px;
+    margin: 100px 0 0 85px;
+}
+
+.quality__title{
+    font-family: "Fraunces";
+    color: #FEFCF7;
+    font-weight: 900;
+    font-size: 40px;
+    margin-bottom: 32px;
+}
+
+.quality__desc{
+    color: #FEFCF7;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.quality__subitem__img{
+    position: absolute;
+    z-index: 2;
+    margin-left: 125px;
+    top:-88px;
+    right:85px;
+    
+}
+
+.last__wrapper{
+    width: 1045px;
+    margin: 0 auto;
+    margin-bottom: 168px;
+}
+
+.last__our__title{
+    margin-bottom: 100px;
+    font-family: "Fraunces";
+    font-weight: 900;
+    font-size: 24px;
+    color: #83888F;
+}
+
+.last__list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+}
+
+.last__img{
+    margin-bottom: 45px;
+}
+
+.last__title{
+    margin-bottom: 30px;
+    font-family: "Fraunces";
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 36px;
+    color: #333D4B;
+}
+
+.last__addres{
+    font-family: "Barlow";
+    font-size: 16px;
+    line-height: 26px;
+    color: #333D4B;
+}
+
+footer{
+    background-color: #2C343E;
+}
+
+.slack{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 47px 85px 47px 85px;
+}
+.slack__box{
+    display: flex;
+    width: 622px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.slack__lists{
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+
+
+.slack__item + .slack__item{
+    margin-left: 30px;
+
+    color:#83888F;
+}
+
+.slack__link{
+    font-family: "Barlow";
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    text-decoration: none;
+    color: #83888F;
+}
+
+.ebay__icons{
+    display: flex;
+}
+
+
+.ebay__icons{
+    align-items: center;
+    padding: 0;
+}
+
+.ebay__icon{
+    margin-left: 30px;
+    list-style: none;
+}
